@@ -1,0 +1,10 @@
+
+编译命令:
+iverilog -o riscv_test.vvp -y ./  alu.v datapath.v decode.v dmem.v extend.v imem.v regfile.v riscv.v top.v top_tb.v
+vvp riscv_test.vvp
+
+在top_tb模块中加入下面指令获得波形
+initial  begin
+    $dumpfile("riscv_test.vcd");
+    $dumpvars(0, top_tb);
+end

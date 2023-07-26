@@ -1,0 +1,210 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/User_Data_Files/FPGA_Learning_Example/Code in Digital Design and Computer Architecture/mini_cpu/SINGLE_CYCLE_PROCESSOR/modelsim_sim_file
+valu
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 E3I2ZMUW<>1:PdZ=GJaXV2
+Ic3zWfGjW^D:_h7UZ?hV7S2
+Z1 dE:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim
+w1689263530
+8E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/alu.v
+FE:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/alu.v
+L0 3
+Z2 OL;L;10.5;63
+Z3 !s108 1690342255.000000
+!s107 define.v|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/alu.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vdatapath
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 >?HkF>hOalgRJfY3T>lei3
+Iz4^`I:[Rz[mYcZ8T51_zC3
+R1
+w1689263725
+8E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/datapath.v
+FE:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/datapath.v
+L0 1
+R2
+R3
+!s107 E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/datapath.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/datapath.v|
+!i113 0
+R4
+R5
+vdecode
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 IW=ZY>SKN<@ZCRGPDzE711
+IOYL]E2V]`h4RI^z01_E<J3
+R1
+w1690342208
+8E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/decode.v
+FE:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/decode.v
+L0 3
+R2
+R3
+!s107 define.v|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/decode.v|
+!i113 0
+R4
+R5
+vdmem
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 :z8=:TOUOdQzlW:n3Q2WT1
+I4I]o`I10DfPM8@;aHbi0c3
+R1
+w1690342219
+8E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/dmem.v
+FE:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/dmem.v
+L0 1
+R2
+R3
+!s107 E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/dmem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/dmem.v|
+!i113 0
+R4
+R5
+vextend
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 [3<1?0CbX?LMKBlZUSoOD0
+IW?P^mPKdWiW:P5[W4jYGj0
+R1
+w1689240841
+8E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/extend.v
+FE:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/extend.v
+L0 1
+R2
+R3
+!s107 E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/extend.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/extend.v|
+!i113 0
+R4
+R5
+vimem
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 DX`FQoAZ5QmmJB;WgM[gI1
+IFFKP4k2_o8PN9Z9BZlL]83
+R1
+w1689264163
+8E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/imem.v
+FE:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/imem.v
+L0 1
+R2
+Z6 !s108 1690342256.000000
+!s107 E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/imem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/imem.v|
+!i113 0
+R4
+R5
+vregfile
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 4D2gRhoS7T99PR1HW;<T]1
+IjTnda>ih9obidkUbmJ9Y>0
+R1
+w1688704446
+8E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/regfile.v
+FE:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/regfile.v
+L0 1
+R2
+R6
+!s107 E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/regfile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/regfile.v|
+!i113 0
+R4
+R5
+vriscv
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^3_5FkOhOYnY`0[HmcLdd2
+Ijo8<bbiAf2@83oE7f02>e0
+R1
+w1689241798
+8E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/riscv.v
+FE:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/riscv.v
+L0 1
+R2
+R6
+!s107 E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/riscv.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/riscv.v|
+!i113 0
+R4
+R5
+vtop
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Uf>5obmnWO@FKdK144aLb0
+I`fF;WaHEll;N^G4o^mlif0
+R1
+w1689241519
+8E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/top.v
+FE:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/top.v
+L0 1
+R2
+R6
+!s107 E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/top.v|
+!i113 0
+R4
+R5
+vtop_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 XEF0k5j<5QYH?54I3?4G`0
+Ih[STkDI01i<1XNB[mL0a;2
+R1
+w1689220408
+8E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/top_tb.v
+FE:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/top_tb.v
+L0 1
+R2
+R6
+!s107 E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/top_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/top_tb.v|
+!i113 0
+R4
+R5

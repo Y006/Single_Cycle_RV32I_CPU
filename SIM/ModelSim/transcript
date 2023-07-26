@@ -1,0 +1,62 @@
+# Reading D:/Program_Files/Modelsim/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/RV32I_SIM.mpf
+# Loading project RV32I_SIM
+# Compile of alu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of decode.v was successful.
+# Compile of dmem.v was successful.
+# Compile of extend.v was successful.
+# Compile of imem.v was successful.
+# Compile of regfile.v was successful.
+# Compile of riscv.v was successful.
+# Compile of top.v was successful.
+# Compile of top_tb.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.top_tb -novopt
+# vsim -gui work.top_tb -novopt 
+# Start time: 11:31:04 on Jul 26,2023
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/work.top_tb
+# Loading work.top_tb
+# Refreshing E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/work.top
+# Loading work.top
+# Refreshing E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/work.riscv
+# Loading work.riscv
+# Refreshing E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/work.decode
+# Loading work.decode
+# Refreshing E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/work.datapath
+# Loading work.datapath
+# Refreshing E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/work.extend
+# Loading work.extend
+# Refreshing E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/work.alu
+# Loading work.alu
+# Refreshing E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/work.regfile
+# Loading work.regfile
+# Refreshing E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/work.imem
+# Loading work.imem
+# Refreshing E:/User_Data_Files/Single_Cycle_RV32I_CPU/SIM/ModelSim/work.dmem
+# Loading work.dmem
+add wave -position insertpoint  \
+sim:/top_tb/U_top/Instr \
+sim:/top_tb/U_top/PC
+add wave -position insertpoint sim:/top_tb/U_top/U_rvsingle/U_datapath/U_regfile/*
+add wave -position insertpoint sim:/top_tb/U_top/U_rvsingle/U_datapath/U_alu/*
+run -all
+# ** Note: $stop    : E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/top_tb.v(20)
+#    Time: 402 ns  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at E:/User_Data_Files/Single_Cycle_RV32I_CPU/RTL/top_tb.v line 20
+# End time: 11:32:33 on Jul 26,2023, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 1

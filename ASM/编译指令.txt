@@ -1,0 +1,4 @@
+编译指令:
+riscv-none-embed-as test.s -o test.o
+riscv-none-embed-objcopy -O binary test.o test.bin
+riscv-none-embed-objcopy -O binary test.o test.bin
